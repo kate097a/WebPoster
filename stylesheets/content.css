@@ -26,21 +26,21 @@ body {
 
 @font-face {
   font-family: "Songer";
-  src: url("/fonts/songer-semiexpanded.otf") format("truetype");
+  src: url("../fonts/songer-semiexpanded.otf") format("truetype");
   font-style: Light;
   font-weight: Light;
 }
 
 @font-face {
   font-family: "Dusty";
-  src: url("/fonts/Dusty\ Pro.ttf") format("truetype");
+  src: url("../fonts/Dusty\ Pro.ttf") format("truetype");
   font-style: Light;
   font-weight: Light;
 }
 
 @font-face {
   font-family: "Eskos";
-  src: url("/fonts/ESKOS-DISPLAY.ttf") format("truetype");
+  src: url("../fonts/ESKOS-DISPLAY.ttf") format("truetype");
   font-style: Light;
   font-weight: Light;
 }
@@ -54,14 +54,14 @@ body {
 
 @font-face {
   font-family: "Marske";
-  src: url("/fonts/Marske.ttf") format("truetype");
+  src: url("../fonts/Marske.ttf") format("truetype");
   font-style: Light;
   font-weight: Light;
 }
 
 @font-face {
   font-family: "Shinners";
-  src: url("/fonts//shinners-regular.ttf") format("truetype");
+  src: url("../fonts//shinners-regular.ttf") format("truetype");
   font-style: Light;
   font-weight: Light;
 }
@@ -180,7 +180,7 @@ p h1 {
   height: 30vw;
   margin-left: 1.5%;
   overflow: hidden;
-  background-image: url(".../images/lines1.png");
+  background-image: url("../images/lines1.png");
   background-position: -5vw -2vw;
   background-size: 115%;
 }
@@ -237,7 +237,7 @@ p h1 {
 
 .mainContent {
   padding: 3vw 0;
-  background-image: url(".../images/backgroundWhiteBlack.png");
+  background-image: url("../images/backgroundWhiteBlack.png");
   border-radius: 2vw;
   background-size: 87vw;
   background-position: 0 -15vw;
@@ -488,7 +488,7 @@ p h1 {
   height: 15vw;
   background-size: 9vw 18vw;
   background-position: 0 15vw;
-  background-image: url(".../images/hanger.svg");
+  background-image: url("../images/hanger.svg");
   margin-left: -5vw;
   margin-top: -2.7vw;
   z-index: 50;
@@ -589,17 +589,7 @@ p h1 {
 .endingGif {
   width: 100%;
 }
-/*
-#mousePosition {
-  background: radial-gradient(50% 50% at 50% 50%, rgba(217, 217, 217, 0.00) 0%, #D9D9D9 100%);
-  width: 50px;
-  height: 50px;
-  border-radius: 100%;
-  position: absolute;
-  mix-blend-mode: difference;
-}
-*/
-/* кружочек на фулл экран норм идея */
+
 .bigCircle {
   background: radial-gradient(50% 50% at 50% 50%, rgba(217, 217, 217, 0.00) 0%, #D9D9D9 100%);
   width: 40vw;
