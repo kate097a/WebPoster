@@ -180,7 +180,7 @@ p h1 {
   height: 30vw;
   margin-left: 1.5%;
   overflow: hidden;
-  background-image: url("/images/lines1.png");
+  background-image: url(".../images/lines1.png");
   background-position: -5vw -2vw;
   background-size: 115%;
 }
@@ -237,7 +237,7 @@ p h1 {
 
 .mainContent {
   padding: 3vw 0;
-  background-image: url("../../images/backgroundWhiteBlack.png");
+  background-image: url(".../images/backgroundWhiteBlack.png");
   border-radius: 2vw;
   background-size: 87vw;
   background-position: 0 -15vw;
@@ -488,7 +488,7 @@ p h1 {
   height: 15vw;
   background-size: 9vw 18vw;
   background-position: 0 15vw;
-  background-image: url("/images/hanger.svg");
+  background-image: url(".../images/hanger.svg");
   margin-left: -5vw;
   margin-top: -2.7vw;
   z-index: 50;

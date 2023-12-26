@@ -21,9 +21,9 @@
 }
 
 @keyframes lines {
-  0% { background-image: url("/images/lines1.png");background-size: 115% }
-  40% { background-image: url("/images/lines2.png");background-size: 115% }
-  80% { background-image: url("/images/lines3.png");background-size: 115% }
+  0% { background-image: url(".../images/lines1.png");background-size: 115% }
+  40% { background-image: url(".../images/lines2.png");background-size: 115% }
+  80% { background-image: url(".../images/lines3.png");background-size: 115% }
 }
 
 .linesContainer:hover {
